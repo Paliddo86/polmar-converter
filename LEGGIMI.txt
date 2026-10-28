@@ -1,0 +1,34 @@
+POLMAR EASY 2 CONVERTER - VERSIONE WINDOWS
+==========================================
+
+Convertitore da vecchio .dat Polmar Easy / XW-679 / KT-680
+al formato Polmar Easy 2.
+
+CONTENUTO
+---------
+polmar-convert-win64.exe   Windows 64-bit
+polmar-convert-win32.exe   Windows 32-bit
+README.md                  istruzioni complete
+SHA256SUMS.txt             hash degli eseguibili
+
+USO RAPIDO
+----------
+1. Estrai questa cartella.
+2. Metti l'exe nella stessa cartella di vecchio.dat e nuovo.dat.
+3. Avvia l'exe.
+4. Controlla i tre percorsi.
+5. Scegli la modalita': merge-full (default), replace-all, freq-only.
+6. Lascia "SQ Level" su 1 (consigliato).
+7. Lascia attivo "Migra impostazioni old".
+8. Se new.dat esiste, spunta "Sovrascrivi output".
+9. Premi "Converti".
+
+NOTE
+----
+- Se senti fruscio sui canali senza tono, prova SQ Level 2..9.
+- Windows 10/11: nessuna installazione aggiuntiva.
+- Windows 7: se manca una DLL UCRT, installa KB2999226.
+- Gli exe non sono firmati: SmartScreen puo' chiedere conferma.
+- Conserva una copia dei file originali.
+
+Dettagli: README.md

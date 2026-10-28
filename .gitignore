@@ -1,0 +1,19 @@
+# Build output
+dist/
+build/
+
+# macOS
+.DS_Store
+
+# Oggetti e binari
+*.o
+*.obj
+*.exe
+*.zip
+
+# Dati radio personali: non pubblicare i file .dat
+*.dat
+
+# IDE
+.vscode/
+.idea/
